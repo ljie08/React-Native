@@ -1,0 +1,80 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CodePush (1.16.1):
+    - CodePush/Core (= 1.16.1)
+    - CodePush/SSZipArchive (= 1.16.1)
+    - React
+  - CodePush/Core (1.16.1):
+    - React
+  - CodePush/SSZipArchive (1.16.1):
+    - React
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - React (0.37.0):
+    - React/Core (= 0.37.0)
+  - React/ART (0.37.0):
+    - React/Core
+  - React/Core (0.37.0)
+  - UMengAnalytics-NO-IDFA (4.2.5)
+  - UMengUShare/Core (6.4.1):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.1)
+  - UMengUShare/Social/ReducedWeChat (6.4.1):
+    - UMengUShare/Core
+  - UMengUShare/Social/SMS (6.4.1):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.4.1):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/UI (6.4.1):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - CodePush (from `../node_modules/react-native-code-push`)
+  - Masonry (~> 1.0.2)
+  - MBProgressHUD (~> 1.0.0)
+  - MJExtension (~> 3.0.13)
+  - MJRefresh (~> 3.1.2)
+  - React/ART (from `../node_modules/react-native`)
+  - UMengAnalytics-NO-IDFA
+  - UMengUShare/Social/SMS
+  - UMengUShare/Social/WeChat
+  - UMengUShare/UI
+
+EXTERNAL SOURCES:
+  CodePush:
+    :path: ../node_modules/react-native-code-push
+  React:
+    :path: ../node_modules/react-native
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CodePush: f52903ecd1a17593a0c7c10aa55ecd3912d20e73
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  React: aa8f585cbea131b6781c6ad7a1aee436e1ac5ddf
+  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+  UMengUShare: 7756e2e46ceba04e3000fb2c9b1d3f61784ca2ff
+
+PODFILE CHECKSUM: fc0856a9adf082e33bc1483289db5f7b6cf07226
+
+COCOAPODS: 1.2.1
